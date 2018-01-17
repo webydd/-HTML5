@@ -1,0 +1,70 @@
+语义化:根据内容的结构化(内容语义化),
+去选择合适的标签(代码语义化),
+便于开发者阅读和写出更优雅的代码的同时,
+让浏览器的爬虫和机器很好的解析。
+让机器去读懂内容。
+语义化的原因:
+1、有利于seo优化；
+2、语义化的HTML在没有CSS的情况下
+也能呈现较好的内容结构与代码结构；
+3、方便其他设备的解析
+4、便于团队开发和维护
+
+HTML5的十五大新特性(尽量消除对JavaScript的需要):
+
+1、新的文档类型(New Doctype)
+2、脚本和连接无需type(No More Types for Scripts and Links)
+3、语义Header和Footer
+4、Hgroup将标题分组，这样就不会影响文件的大纲
+5、标记元素(Mark Element):可以当做高亮标签
+6、图形元素(Figure Element):figure/figcaption
+   可以语义化地将注释和相应的图片联系起来
+7、重新定义<small>:被用来定义小字(比如网站底部的版权状态)
+8、占位符(placeholder)
+9、必要属性(Required Attribute):某一输入是否必须
+<input type="text" name="someInput" required>
+<input type="text" name="someInput" required="required">
+10、Autofocus属性:自动聚焦属性
+11、Audio支持:firefox(.ogg)/webkit(.mp3)/opera10-(.wav)/IE不兼容
+12、Video支持:Safari/IE9+(H.264)、Firefox/Opera开源Theora和Vorbis格式
+13、视频预加载:perload="preload"/preload
+14、视频显示控制条:controls
+15、正规表达式/正则表达式
+    H5标签的pattern属性:pattern="[a-zA-Z]{4,10}"
+
+HTML5新标签:
+1、article:定义外部的内容。
+比如来自一个外部的新闻提供者的一篇新的文章，
+或者来自 blog 的文本，或者是来自论坛的文本。
+亦或是来自其他外部源内容。
+2、aside：定义article以外的内容。
+aside 的内容应该与 article 的内容相关。
+3、audio定义音频 HTML4用object定义
+4、canvas定义图形，比如图标和其他图像
+5、command定义命令按钮，比如单选按钮、复选框按钮或按钮
+<command onclick="cut()" label="cut">
+6、datalist定义可选数据的列表。与input元素配合使用，
+就可以制作出输入值的下拉列表
+7、details定义描述有关文档或文档片段的详细信息，与legend一起使用
+8、embed定义嵌入的内容，比如插件
+9、figure用于对元素进行组合。使用figcaption为元素组添加标题
+10、figcaption定义figure的标题
+11、footer定义section或documen的页脚(包含创作者的姓名、文档的创作日期以及联系信息)
+12、header定义section或document的页眉
+13、hgroup用于对网页或区段(section)的标题进行组合
+14、keygen定义生成密钥
+15、mark用来在视觉上向用户呈现那些需要突出的文字。
+典型应用是在搜索结果中向用户显示搜索关键词
+16、meter定义度量衡。仅用于已知最大和最小值的度量。
+17、nav定义导航链接的部分
+18、output定义不同类型的输出，比如脚本的输出
+19、progress运行中的进程
+20、rp在ruby注释中使用，以定义不支持Ruby元素的浏览器所显示的内容
+21、rt定义字符(中英注音或字符)的解释或发音
+22、ruby定义ruby注释(中文注音或字符)
+23、section定义文档中的节(section、区段)。
+比如章节、页眉、页脚或文档中的其他部分。
+24、source媒介元素(比如video和audio)定义媒介资源
+25、summary定义包含details元素的标题，为details元素的第一个子元素
+26、time定义日趋或时间、或者两者
+27、video定义视频，比如电影片段或其他视频流。
